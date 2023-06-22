@@ -1,6 +1,6 @@
 # Paper Title
 
-This repository contains code for the paper entitled "Novel Ultrahigh-porosity and Crystallinity Ranunculus-like Magnesium Oxide for Fluoride Treatment and Simulation with Deep Belief Network" authored by Duc Anh Nguyen, Viet Bac Nguyen, and Am Jang from the Department of Global Smart City and the Department of Electrical and Computer Engineering, Sungkyunkwan University (SKKU), 2066, Seobu-ro, Jangan-gu, Suwon-si, Gyeonggi-do 16419, Republic of Korea. The published article can be found on [insert link to the article].
+This repository contains code for the paper entitled "Novel Ultrahigh-porosity and Crystallinity Ranunculus-like Magnesium Oxide for Fluoride Treatment and Simulation with Deep Belief Network" authored by Duc Anh Nguyen, Viet Bac Nguyen, and Am Jang from the Department of Global Smart City and the Department of Electrical and Computer Engineering, Sungkyunkwan University (SKKU), 2066, Seobu-ro, Jangan-gu, Suwon-si, Gyeonggi-do 16419, Republic of Korea. The published article can be found on [].
 
 ## Introduction
 
