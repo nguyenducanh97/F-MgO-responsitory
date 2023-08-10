@@ -1,4 +1,4 @@
-# Paper Title
+# Affiliation
 
 This repository contains code for the paper entitled "Novel Ultrahigh-porosity and Crystallinity Ranunculus-like Magnesium Oxide for Fluoride Treatment and Simulation with Deep Belief Network" authored by Duc Anh Nguyen, Viet Bac Nguyen, and Am Jang from the Department of Global Smart City and the Department of Electrical and Computer Engineering, Sungkyunkwan University (SKKU), 2066, Seobu-ro, Jangan-gu, Suwon-si, Gyeonggi-do 16419, Republic of Korea. The published article can be found on [].
 
@@ -13,7 +13,7 @@ The rapid growth of the semiconductor industry has resulted in the urgent issue 
 - `<DBN-model>` and `<DNN-ML-save-model>`: Models after being trained using the prepared dataset.
 - `<FeIm for DBN>` and `<PDP data for DBN ver 5>`: Feature importance and partial dependence plot data for DBN models, respectively.
 - `<DBN regression for F-removal-by-MgO-data.py>`: DBN and feature importance algorithms.
-- `<DNN and traditional ML regressions for F-removal-by-MgO-data.py>`: DNN, traditional machine learning, and feature importance algorithms.
+- `<DNN and traditional ML regressions for F-removal-by-MgO-data.ipynb>`: DNN, traditional machine learning, and feature importance algorithms.
 - `<PDP for DBN regression using F-removal-by-MgO-data.py>`: The partial dependence plot (PDP) algorithms.
 
 ## Findings
