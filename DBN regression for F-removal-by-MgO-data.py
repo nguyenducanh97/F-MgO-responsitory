@@ -118,3 +118,28 @@ feature_importances['importance'] = feature_importances['importance'] / feature_
 # Save the DataFrame to a CSV file
 feature_importances.to_csv('FeIm-data-DBN-ver1.csv', index=False)
 print('Successfulluy saved FeIm-data-DBN-ver1.csv')
+
+
+
+#SHAP BEESWARM PLOT FOR SINGLE OUTPUT FEATURE
+
+import shap
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+
+mpl.rcParams['font.family'] = 'Arial'
+explainer = shap.KernelExplainer(regressor.predict, X_)
+shap_values = explainer.shap_values(X_)
+column_names = list(pd.read_csv('F-removal-by-MgO-data-321data-points.csv').columns[:15])
+
+# Create beeswarm plots for each output feature with labeled features
+for i in range(Y_.shape[1]): 
+    plt.figure(figsize=(16, 9), dpi=100)  
+    shap.summary_plot(shap_values[i], features=X_, feature_names=column_names, plot_type='violin')
+    plt.title(f"SHAP Beeswarm Plot for Output Feature {i+1}", fontdict={'fontname': 'Arial', 'fontsize': 18})
+    plt.xlabel("SHAP Value", fontdict={'fontname': 'Arial', 'fontsize': 14}) 
+    plt.ylabel("Feature", fontdict={'fontname': 'Arial', 'fontsize': 14})  
+    plt.xticks(fontname='Arial', fontsize=12)  
+    plt.yticks(fontname='Arial', fontsize=12) 
+    plt.tight_layout()
+    plt.show()
