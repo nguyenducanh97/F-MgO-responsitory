@@ -12,7 +12,7 @@ The rapid growth of the semiconductor industry has resulted in the urgent issue 
 - `<F-removal-by-MgO-data-321data-points.csv>`: Dataset applied in this study.
 - `<DBN-model>` and `<DNN-ML-save-model>`: Models after being trained using the prepared dataset.
 - `<FeIm for DBN>` and `<PDP data for DBN ver 5>`: Feature importance and partial dependence plot data for DBN models, respectively.
-- `<DBN regression for F-removal-by-MgO-data.py>`: DBN and feature importance algorithms.
+- `<DBN regression for F-removal-by-MgO-data.py>`: DBN, feature importance, and SHAP beeswarm plot algorithms.
 - `<DNN and traditional ML regressions for F-removal-by-MgO-data.ipynb>`: DNN, traditional machine learning, and feature importance algorithms.
 - `<PDP for DBN regression using F-removal-by-MgO-data.py>`: The partial dependence plot (PDP) algorithms.
 
