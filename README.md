@@ -15,7 +15,7 @@ The rapid growth of the semiconductor industry has resulted in the urgent issue 
 - `<DBN regression for F-removal-by-MgO-data.py>`: DBN, feature importance, and SHAP beeswarm plot algorithms.
 - `<DNN and traditional ML regressions for F-removal-by-MgO-data.ipynb>`: DNN, traditional machine learning, and feature importance algorithms.
 - `<PDP for DBN regression using F-removal-by-MgO-data.py>`: The partial dependence plot (PDP) algorithms.
-- `<Robustness test of DBNv5>`: Prediction performance under different training and testing datasets.
+- `<Robustness test of DBNv5>`: 10 models after being trained and tested with datasets in different ranges.
 
 ## Findings
 
